@@ -12,8 +12,7 @@ from discover import DISCOVERED_URLS_PATH, discover_program_urls, polite_get
 from schema import Program
 from verify import verify_program, verify_record
 
-# Set up logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# Extraction helpers for scraping program pages and writing snapshot outputs.
 logger = logging.getLogger(__name__)
 
 

@@ -9,8 +9,7 @@ from dateutil import parser as date_parser
 
 from schema import FieldVerification, Program, REQUIRED_FIELDS
 
-# Set up logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# Record verification helpers and confidence scoring.
 logger = logging.getLogger(__name__)
 
 

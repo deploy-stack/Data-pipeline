@@ -4,6 +4,7 @@ from dataclasses import dataclass
 import logging
 from typing import Any
 
+# High-level orchestration of the pipeline's discovery, extraction, and verification stages.
 from agent_tools import (
     ClaudeReasoningTool,
     FirecrawlClient,
@@ -22,8 +23,6 @@ from program_extraction_agent import ProgramExtractionAgent
 from schema import Program
 from verification_matching_agent import VerificationMatchingAgent
 
-# Set up logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 

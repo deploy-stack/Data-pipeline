@@ -12,8 +12,7 @@ from program_database import save_verified_records
 from schema import Program, StudentProfile
 from verify import verify_record
 
-# Set up logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# Agent utilities used by live and offline pipeline execution.
 logger = logging.getLogger(__name__)
 
 

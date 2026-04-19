@@ -5,8 +5,7 @@ import re
 
 from schema import Program, StudentProfile
 
-# Set up logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# Matching utilities for ranking programs against student profile preferences.
 logger = logging.getLogger(__name__)
 
 

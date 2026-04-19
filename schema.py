@@ -4,8 +4,7 @@ from dataclasses import asdict, dataclass, field
 import logging
 from typing import Any, Optional
 
-# Set up logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# Shared schema definitions for program and profile objects.
 logger = logging.getLogger(__name__)
 
 

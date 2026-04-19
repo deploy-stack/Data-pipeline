@@ -9,8 +9,7 @@ from typing import Any
 from urllib.parse import urlparse
 from urllib.robotparser import RobotFileParser
 
-# Set up logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# Discovery helpers for seed URLs and polite page fetches.
 logger = logging.getLogger(__name__)
 
 
